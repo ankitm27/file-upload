@@ -6,7 +6,7 @@ const multer = require('multer');
 const app = express();
 
 //upload path in upload folder
-const uploadsPath = path.join(__dirname, '/i');
+const uploadsPath = path.join(__dirname, '/');
 
 //multer functions to store files
 const storage = multer.diskStorage({
